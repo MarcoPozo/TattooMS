@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pirata+One&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #121212;
+  --color-primary: #7b1e1e;
+  --color-accent: #4b0082;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #3a3a3a;
+  --color-border: #8d8d8d;
+  --color-hover: #5c1a1a;
+
+  --font-titulo: "Pirata One", cursive;
+  --font-body: "Montserrat", sans-serif;
+}
+
+:root {
+  --color-bg: #121212;
+  --color-primary: #7b1e1e;
+  --color-accent: #4b0082;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #3a3a3a;
+  --color-border: #8d8d8d;
+  --color-hover: #5c1a1a;
+
+  --font-titulo: "Pirata One", cursive;
+  --font-body: "Montserrat", sans-serif;
+}

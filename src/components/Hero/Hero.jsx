@@ -21,6 +21,8 @@ export default function Hero() {
           Agenda una cita
         </motion.button>
       </div>
+
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-[var(--color-bg)] pointer-events-none z-10"></div>
     </section>
   );
 }

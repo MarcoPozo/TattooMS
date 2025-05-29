@@ -77,16 +77,16 @@ export default function Navbar() {
               <FaTimes />
             </button>
 
-            <Link onClick={() => setMenuOpen(false)} to="hero" smooth duration={500} className="cursor-pointer">
+            <Link onClick={() => setMenuOpen(false)} to="hero" smooth duration={500} className="cursor-pointer hover:text-accent transition">
               Inicio
             </Link>
-            <Link onClick={() => setMenuOpen(false)} to="about" smooth duration={500} className="cursor-pointer">
+            <Link onClick={() => setMenuOpen(false)} to="about" smooth duration={500} className="cursor-pointer hover:text-accent transition">
               Nosotros
             </Link>
-            <Link onClick={() => setMenuOpen(false)} to="galeria" smooth duration={500} className="cursor-pointer">
+            <Link onClick={() => setMenuOpen(false)} to="galeria" smooth duration={500} className="cursor-pointer hover:text-accent transition">
               Galería
             </Link>
-            <Link onClick={() => setMenuOpen(false)} to="contact" smooth duration={500} className="cursor-pointer">
+            <Link onClick={() => setMenuOpen(false)} to="contact" smooth duration={500} className="cursor-pointer hover:text-accent transition">
               Contacto
             </Link>
           </motion.div>

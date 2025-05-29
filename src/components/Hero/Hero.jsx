@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
         <div className="w-full px-6 sm:px-8 md:px-10 xl:px-0 flex flex-col items-start justify-center max-w-6xl mx-auto ">
           <motion.h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-4 leading-tight"
             style={{ fontFamily: "var(--font-titulo)" }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

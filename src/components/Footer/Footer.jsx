@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -27,17 +28,17 @@ export default function Footer() {
           <ul className="flex justify-center md:justify-start gap-4 text-lg">
             <li>
               <a href="#" className="hover:text-[var(--color-accent)] transition">
-                IG
+                <FaInstagram />
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-[var(--color-accent)] transition">
-                FB
+                <FaFacebookF />
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-[var(--color-accent)] transition">
-                TikTok
+                <FaTiktok />
               </a>
             </li>
           </ul>

@@ -30,8 +30,7 @@ export default function Hero() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="hover:bg-hover px-6 py-3 rounded-md font-semibold cursor-pointer transition text-sm sm:text-base"
-            style={{ backgroundColor: "var(--color-primary)" }}>
+            className="bg-[var(--color-primary)] hover:bg-hover px-6 py-3 rounded-md font-semibold cursor-pointer transition text-sm sm:text-base">
             Agenda una cita
           </motion.button>
         </div>

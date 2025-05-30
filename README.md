@@ -1,12 +1,55 @@
-# React + Vite
+# TattooMS — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fecha de finalización:** 30/05/2025  
+**Desarrollado por:** MoonStudio  
+**Tecnologías:** React + Vite, Tailwind CSS v4, Framer Motion, React Icons
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Estructura de componentes
 
-## Expanding the ESLint configuration
+- `Hero`: Sección principal con imagen de fondo, título destacado y botón animado.
+- `About`: Presentación del estudio y su equipo con diseño responsivo.
+- `Gallery`: Galería tipo grid asimétrico con imágenes animadas.
+- `Contact`: Formulario accesible con validación y diseño moderno.
+- `Footer`: Información de contacto, redes sociales, diseño adaptable.
+- `Navbar`: Menú fijo tipo glassmorphism con versión hamburguesa en móviles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Funcionalidades clave
+
+- Animaciones suaves con `Framer Motion`.
+- Menú responsive con ícono animado (`FaBars` / `FaTimes`).
+- Mobile-first & diseño fluido para múltiples tamaños de pantalla.
+- Estilo consistente mediante variables CSS y Tailwind personalizados.
+- Scroll suave con `react-scroll`.
+
+---
+
+## 💡 Mejoras implementadas
+
+- Fondo semitransparente completo en Hero corregido en pantallas grandes.
+- Ajustes responsivos sección por sección (Hero, About, Gallery, Contact, Footer, Navbar).
+- Iconos integrados con `react-icons`.
+- Título de Hero redimensionado para mayor impacto visual.
+- Desactivado `resize` en `<textarea>` del formulario.
+
+---
+
+## 🚀 Pendientes para futuros proyectos
+
+- Animación de tinta en botones al hacer hover.
+- Mini chatbot interactivo embebido (en otro sitio web).
+
+---
+
+## 🧾 Créditos
+
+Este proyecto fue creado como parte de un portafolio profesional para estudios de tatuajes, con especial énfasis en la estética, animación y experiencia móvil.
+
+> “Tu historia en la piel” — TattooMS
+
+---
+
+**Desarrollado por MoonStudio 💛💙❤️**

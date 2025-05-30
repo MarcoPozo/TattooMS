@@ -35,7 +35,7 @@ export default function ContactForm() {
             rows="5"
             placeholder="¿Que necesitas?"
             required
-            className="w-full bg-transparent border border-[var(--color-border)] px-4 py-3 rounded text-[var(--color-text)] placeholder-[var(--color-text-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] transition"
+            className="w-full resize-none bg-transparent border border-[var(--color-border)] px-4 py-3 rounded text-[var(--color-text)] placeholder-[var(--color-text-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] transition"
           />
 
           <motion.button
